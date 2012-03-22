@@ -1,0 +1,6 @@
+READE
+=====
+
+A monitoring file module using C#.
+
+It can send a event that what had happened when we done something in the monitored directory.
