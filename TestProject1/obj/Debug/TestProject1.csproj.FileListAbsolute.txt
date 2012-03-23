@@ -1,0 +1,11 @@
+C:\Users\simmon\Documents\Visual Studio 2010\Projects\MyFileSystemWatcherText\TestProject1\bin\Debug\TestProject1.dll
+C:\Users\simmon\Documents\Visual Studio 2010\Projects\MyFileSystemWatcherText\TestProject1\bin\Debug\TestProject1.pdb
+C:\Users\simmon\Documents\Visual Studio 2010\Projects\MyFileSystemWatcherText\TestProject1\bin\Debug\MyFileSystemWatcherText.dll
+C:\Users\simmon\Documents\Visual Studio 2010\Projects\MyFileSystemWatcherText\TestProject1\bin\Debug\nunit.framework.dll
+C:\Users\simmon\Documents\Visual Studio 2010\Projects\MyFileSystemWatcherText\TestProject1\bin\Debug\MyFileSystemWatcherText.pdb
+C:\Users\simmon\Documents\Visual Studio 2010\Projects\MyFileSystemWatcherText\TestProject1\bin\Debug\nunit.framework.xml
+C:\Users\simmon\Documents\Visual Studio 2010\Projects\MyFileSystemWatcherText\TestProject1\bin\Debug\MyFileSystemWatcherText_Accessor.dll
+C:\Users\simmon\Documents\Visual Studio 2010\Projects\MyFileSystemWatcherText\TestProject1\bin\Debug\MyFileSystemWatcherText_Accessor.pdb
+C:\Users\simmon\Documents\Visual Studio 2010\Projects\MyFileSystemWatcherText\TestProject1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\simmon\Documents\Visual Studio 2010\Projects\MyFileSystemWatcherText\TestProject1\obj\Debug\TestProject1.dll
+C:\Users\simmon\Documents\Visual Studio 2010\Projects\MyFileSystemWatcherText\TestProject1\obj\Debug\TestProject1.pdb

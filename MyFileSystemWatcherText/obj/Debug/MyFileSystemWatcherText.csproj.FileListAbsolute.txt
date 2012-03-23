@@ -1,0 +1,7 @@
+c:\users\simmon\documents\visual studio 2010\Projects\MyFileSystemWatcherText\MyFileSystemWatcherText\bin\Debug\MyFileSystemWatcherText.dll
+c:\users\simmon\documents\visual studio 2010\Projects\MyFileSystemWatcherText\MyFileSystemWatcherText\bin\Debug\MyFileSystemWatcherText.pdb
+c:\users\simmon\documents\visual studio 2010\Projects\MyFileSystemWatcherText\MyFileSystemWatcherText\bin\Debug\nunit.framework.dll
+c:\users\simmon\documents\visual studio 2010\Projects\MyFileSystemWatcherText\MyFileSystemWatcherText\bin\Debug\nunit.framework.xml
+c:\users\simmon\documents\visual studio 2010\Projects\MyFileSystemWatcherText\MyFileSystemWatcherText\obj\Debug\ResolveAssemblyReference.cache
+c:\users\simmon\documents\visual studio 2010\Projects\MyFileSystemWatcherText\MyFileSystemWatcherText\obj\Debug\MyFileSystemWatcherText.dll
+c:\users\simmon\documents\visual studio 2010\Projects\MyFileSystemWatcherText\MyFileSystemWatcherText\obj\Debug\MyFileSystemWatcherText.pdb
