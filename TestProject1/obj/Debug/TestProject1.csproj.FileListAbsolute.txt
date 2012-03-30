@@ -9,3 +9,9 @@ C:\Users\simmon\Documents\Visual Studio 2010\Projects\MyFileSystemWatcherText\Te
 C:\Users\simmon\Documents\Visual Studio 2010\Projects\MyFileSystemWatcherText\TestProject1\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\simmon\Documents\Visual Studio 2010\Projects\MyFileSystemWatcherText\TestProject1\obj\Debug\TestProject1.dll
 C:\Users\simmon\Documents\Visual Studio 2010\Projects\MyFileSystemWatcherText\TestProject1\obj\Debug\TestProject1.pdb
+C:\Users\simmon\Documents\Visual Studio 2010\Projects\MyFileSystemWatcherText\TestProject1\bin\Debug\Moq.dll
+C:\Users\simmon\Documents\Visual Studio 2010\Projects\MyFileSystemWatcherText\TestProject1\bin\Debug\TypeMock.dll
+C:\Users\simmon\Documents\Visual Studio 2010\Projects\MyFileSystemWatcherText\TestProject1\bin\Debug\Configuration.dll
+C:\Users\simmon\Documents\Visual Studio 2010\Projects\MyFileSystemWatcherText\TestProject1\bin\Debug\Moq.pdb
+C:\Users\simmon\Documents\Visual Studio 2010\Projects\MyFileSystemWatcherText\TestProject1\bin\Debug\Moq.xml
+C:\Users\simmon\Documents\Visual Studio 2010\Projects\MyFileSystemWatcherText\TestProject1\bin\Debug\TypeMock.xml

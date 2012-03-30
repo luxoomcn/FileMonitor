@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="185d358f-b8c0-4ef2-aadc-981db1c19a36" name="simmon@SIMMON-PC 2012-03-30 13:46:25" runUser="simmon-PC\simmon" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="f3e4f830-58d2-476d-86e4-89d57190b36c">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="simmon_SIMMON-PC 2012-03-30 13_46_25">
+      <DeploymentItem filename="C:\Users\simmon\Documents\Visual Studio 2010\Projects\MyFileSystemWatcherText\MyFileSystemWatcherText\bin\Debug\MyFileSystemWatcherText.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\NUnit 2.6\bin\framework\nunit.framework.dll" />
+      <DeploymentItem filename="C:\Users\simmon\Downloads\Moq.4.0.10827\NET40\Moq.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Typemock\Isolator\7\TypeMock.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-03-30T13:46:25.0962259+08:00" queuing="2012-03-30T13:46:25.1232274+08:00" start="2012-03-30T13:46:25.1312279+08:00" finish="2012-03-30T13:46:28.1672369+08:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="1" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="SIMMON-PC" outcome="Warning" timestamp="2012-03-30T13:46:25.1232274+08:00">
+        <Text>Deployment is currently disabled. The deployment item 'MyFileSystemWatcherText.dll' on test 'TestProject1.MyFileSystemWatherTest.WatcherProcess_OnRenamedTest' was not deployed.</Text>
+      </RunInfo>
+      <RunInfo computerName="SIMMON-PC" outcome="Error" timestamp="2012-03-30T13:46:25.4672332+08:00">
+        <Text>One of the background threads threw exception: 
+System.ArgumentException: Item has already been added. Key in dictionary: 'C:\Users\Public\Pictures\Sample Pictures\newname.txt'  Key being added: 'C:\Users\Public\Pictures\Sample Pictures\newname.txt'
+   at System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+   at System.Collections.Hashtable.Add(Object key, Object value)
+   at text.MyFileSystemWather.fsWather_Renamed(Object sender, RenamedEventArgs e) in C:\Users\simmon\Documents\Visual Studio 2010\Projects\MyFileSystemWatcherText\MyFileSystemWatcherText\MYFileSystemWatcher.cs:line 108
+   at System.IO.FileSystemWatcher.OnRenamed(RenamedEventArgs e)
+   at System.IO.FileSystemWatcher.NotifyRenameEventArgs(WatcherChangeTypes action, String name, String oldName)
+   at System.IO.FileSystemWatcher.CompletionStatusChanged(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* overlappedPointer)
+   at System.Threading._IOCompletionCallback.IOCompletionCallback_Context(Object state)
+   at System.Threading.ExecutionContext.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean ignoreSyncCtx)
+   at System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="WatcherProcess_OnRenamedTest" storage="c:\users\simmon\documents\visual studio 2010\projects\myfilesystemwatchertext\testproject1\bin\debug\testproject1.dll" id="4b1e98d3-c060-7034-aba0-4f61bba76a85">
+      <DeploymentItems>
+        <DeploymentItem filename="MyFileSystemWatcherText.dll" />
+      </DeploymentItems>
+      <Execution id="d9abb818-4226-4005-a260-eccd953644f6" />
+      <TestMethod codeBase="C:/Users/simmon/Documents/Visual Studio 2010/Projects/MyFileSystemWatcherText/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.MyFileSystemWatherTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WatcherProcess_OnRenamedTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="4b1e98d3-c060-7034-aba0-4f61bba76a85" executionId="d9abb818-4226-4005-a260-eccd953644f6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d9abb818-4226-4005-a260-eccd953644f6" testId="4b1e98d3-c060-7034-aba0-4f61bba76a85" testName="WatcherProcess_OnRenamedTest" computerName="SIMMON-PC" startTime="2012-03-30T13:46:25.1372282+08:00" endTime="2012-03-30T13:46:28.0972368+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d9abb818-4226-4005-a260-eccd953644f6">
+      <Output>
+        <ErrorInfo>
+          <Message>The agent process was stopped while the test was running.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

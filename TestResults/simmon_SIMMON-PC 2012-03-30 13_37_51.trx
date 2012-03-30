@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="cd61218b-c3c6-49f2-910a-874bacc0c3c6" name="simmon@SIMMON-PC 2012-03-30 13:37:51" runUser="simmon-PC\simmon" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="f3e4f830-58d2-476d-86e4-89d57190b36c">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="simmon_SIMMON-PC 2012-03-30 13_37_51">
+      <DeploymentItem filename="C:\Users\simmon\Documents\Visual Studio 2010\Projects\MyFileSystemWatcherText\MyFileSystemWatcherText\bin\Debug\MyFileSystemWatcherText.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\NUnit 2.6\bin\framework\nunit.framework.dll" />
+      <DeploymentItem filename="C:\Users\simmon\Downloads\Moq.4.0.10827\NET40\Moq.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Typemock\Isolator\7\TypeMock.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-03-30T13:37:51.7941707+08:00" queuing="2012-03-30T13:37:54.3141743+08:00" start="2012-03-30T13:37:54.3341743+08:00" finish="2012-03-30T13:37:54.6541747+08:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="setPathTest" storage="c:\users\simmon\documents\visual studio 2010\projects\myfilesystemwatchertext\testproject1\bin\debug\testproject1.dll" id="48c4ea34-cbe5-6c78-3d57-a89b2bb19efb">
+      <Execution id="37ef0979-3cec-4bf9-a5d8-e293015ffc64" />
+      <TestMethod codeBase="C:/Users/simmon/Documents/Visual Studio 2010/Projects/MyFileSystemWatcherText/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.MyFileSystemWatherTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="setPathTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="48c4ea34-cbe5-6c78-3d57-a89b2bb19efb" executionId="37ef0979-3cec-4bf9-a5d8-e293015ffc64" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="37ef0979-3cec-4bf9-a5d8-e293015ffc64" testId="48c4ea34-cbe5-6c78-3d57-a89b2bb19efb" testName="setPathTest" computerName="SIMMON-PC" duration="00:00:00.0406368" startTime="2012-03-30T13:37:54.3341743+08:00" endTime="2012-03-30T13:37:54.6441747+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="37ef0979-3cec-4bf9-a5d8-e293015ffc64">
+    </UnitTestResult>
+  </Results>
+</TestRun>

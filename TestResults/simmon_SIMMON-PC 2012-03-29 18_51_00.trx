@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d754c842-7d78-4ac9-b9bb-3d99314bd7b5" name="simmon@SIMMON-PC 2012-03-29 18:51:00" runUser="simmon-PC\simmon" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="f3e4f830-58d2-476d-86e4-89d57190b36c">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="simmon_SIMMON-PC 2012-03-29 18_51_00">
+      <DeploymentItem filename="C:\Users\simmon\Documents\Visual Studio 2010\Projects\MyFileSystemWatcherText\MyFileSystemWatcherText\bin\Debug\MyFileSystemWatcherText.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\NUnit 2.6\bin\framework\nunit.framework.dll" />
+      <DeploymentItem filename="C:\Users\simmon\Downloads\Moq.4.0.10827\NET40\Moq.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Typemock\Isolator\7\TypeMock.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-03-29T18:51:00.0065328+08:00" queuing="2012-03-29T18:51:00.5985667+08:00" start="2012-03-29T18:51:00.6085673+08:00" finish="2012-03-29T18:51:04.3056538+08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="SIMMON-PC" outcome="Warning" timestamp="2012-03-29T18:51:00.5985667+08:00">
+        <Text>Deployment is currently disabled. The deployment item 'MyFileSystemWatcherText.dll' on test 'TestProject1.MyFileSystemWatherTest.WatcherProcess_OnChangedTest' was not deployed.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="WatcherProcess_OnChangedTest" storage="c:\users\simmon\documents\visual studio 2010\projects\myfilesystemwatchertext\testproject1\bin\debug\testproject1.dll" id="bb1755c7-6630-68c3-2648-cb40ee5bd140">
+      <DeploymentItems>
+        <DeploymentItem filename="MyFileSystemWatcherText.dll" />
+      </DeploymentItems>
+      <Execution id="9f514e76-753b-42bf-ab0a-4b5f5306dfbd" />
+      <TestMethod codeBase="C:/Users/simmon/Documents/Visual Studio 2010/Projects/MyFileSystemWatcherText/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.MyFileSystemWatherTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WatcherProcess_OnChangedTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="bb1755c7-6630-68c3-2648-cb40ee5bd140" executionId="9f514e76-753b-42bf-ab0a-4b5f5306dfbd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="9f514e76-753b-42bf-ab0a-4b5f5306dfbd" testId="bb1755c7-6630-68c3-2648-cb40ee5bd140" testName="WatcherProcess_OnChangedTest" computerName="SIMMON-PC" duration="00:00:03.0563359" startTime="2012-03-29T18:51:00.6235681+08:00" endTime="2012-03-29T18:51:03.9156532+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9f514e76-753b-42bf-ab0a-4b5f5306dfbd">
+      <Output>
+        <StdOut>The path of the mointor file:</StdOut>
+        <ErrorInfo>
+          <Message>Assert.IsTrue failed. </Message>
+          <StackTrace>   at TestProject1.MyFileSystemWatherTest.WatcherProcess_OnChangedTest() in C:\Users\simmon\Documents\Visual Studio 2010\Projects\MyFileSystemWatcherText\TestProject1\MyFileSystemWatherTest.cs:line 169
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

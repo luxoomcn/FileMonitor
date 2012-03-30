@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="6c337514-91c5-458c-b255-1e35ed740902" name="simmon@SIMMON-PC 2012-03-29 18:31:54" runUser="simmon-PC\simmon" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="f3e4f830-58d2-476d-86e4-89d57190b36c">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="simmon_SIMMON-PC 2012-03-29 18_31_54">
+      <DeploymentItem filename="C:\Users\simmon\Documents\Visual Studio 2010\Projects\MyFileSystemWatcherText\MyFileSystemWatcherText\bin\Debug\MyFileSystemWatcherText.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\NUnit 2.6\bin\framework\nunit.framework.dll" />
+      <DeploymentItem filename="C:\Users\simmon\Downloads\Moq.4.0.10827\NET40\Moq.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Typemock\Isolator\7\TypeMock.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-03-29T18:31:54.8345017+08:00" queuing="2012-03-29T18:31:56.1275756+08:00" start="2012-03-29T18:31:56.1365762+08:00" finish="2012-03-29T18:31:56.5565829+08:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="SIMMON-PC" outcome="Warning" timestamp="2012-03-29T18:31:56.1265756+08:00">
+        <Text>Deployment is currently disabled. The deployment item 'MyFileSystemWatcherText.dll' on test 'TestProject1.MyFileSystemWatherTest.WatcherProcess_OnChangedTest' was not deployed.</Text>
+      </RunInfo>
+      <RunInfo computerName="SIMMON-PC" outcome="Error" timestamp="2012-03-29T18:31:56.3865827+08:00">
+        <Text>One of the background threads threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at text.MyFileSystemWather.WatcherProcess_OnCreated(Object sender, FileSystemEventArgs e) in C:\Users\simmon\Documents\Visual Studio 2010\Projects\MyFileSystemWatcherText\MyFileSystemWatcherText\MYFileSystemWatcher.cs:line 139
+   at text.WatcherProcess.Process() in C:\Users\simmon\Documents\Visual Studio 2010\Projects\MyFileSystemWatcherText\MyFileSystemWatcherText\WatcherProcess.cs:line 40
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean ignoreSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="WatcherProcess_OnChangedTest" storage="c:\users\simmon\documents\visual studio 2010\projects\myfilesystemwatchertext\testproject1\bin\debug\testproject1.dll" id="bb1755c7-6630-68c3-2648-cb40ee5bd140">
+      <DeploymentItems>
+        <DeploymentItem filename="MyFileSystemWatcherText.dll" />
+      </DeploymentItems>
+      <Execution id="044fc745-54dc-40ec-92d6-dff530525e0f" />
+      <TestMethod codeBase="C:/Users/simmon/Documents/Visual Studio 2010/Projects/MyFileSystemWatcherText/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.MyFileSystemWatherTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WatcherProcess_OnChangedTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="bb1755c7-6630-68c3-2648-cb40ee5bd140" executionId="044fc745-54dc-40ec-92d6-dff530525e0f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="044fc745-54dc-40ec-92d6-dff530525e0f" testId="bb1755c7-6630-68c3-2648-cb40ee5bd140" testName="WatcherProcess_OnChangedTest" computerName="SIMMON-PC" duration="00:00:00.0503837" startTime="2012-03-29T18:31:56.1415765+08:00" endTime="2012-03-29T18:31:56.4065827+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="044fc745-54dc-40ec-92d6-dff530525e0f">
+      <Output>
+        <StdOut>The path of the mointor file:</StdOut>
+        <ErrorInfo>
+          <Message>Test method TestProject1.MyFileSystemWatherTest.WatcherProcess_OnChangedTest threw exception: 
+System.IO.IOException: The process cannot access the file 'C:\Users\Public\Pictures\Sample Pictures\oldname.txt' because it is being used by another process.</Message>
+          <StackTrace>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding)
+   at System.IO.File.InternalAppendAllText(String path, String contents, Encoding encoding)
+   at System.IO.File.AppendAllText(String path, String contents)
+   at TypeMock.Interceptors.FileInterceptor.AppendAllText(String path, String contents)
+   at TestProject1.MyFileSystemWatherTest.WatcherProcess_OnChangedTest() in C:\Users\simmon\Documents\Visual Studio 2010\Projects\MyFileSystemWatcherText\TestProject1\MyFileSystemWatherTest.cs:line 163
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -15,6 +15,7 @@ namespace text
         private FileSystemWatcher fsWather;
         private Hashtable hstbWather;
 
+
         private string pathFile;
         private string filterFile;
         public event RenamedEventHandler OnRenamed;

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f6558d00-ba6e-4e85-96c4-4c1679937c28" name="simmon@SIMMON-PC 2012-03-30 14:18:08" runUser="simmon-PC\simmon" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="f3e4f830-58d2-476d-86e4-89d57190b36c">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="simmon_SIMMON-PC 2012-03-30 14_18_08">
+      <DeploymentItem filename="C:\Users\simmon\Documents\Visual Studio 2010\Projects\MyFileSystemWatcherText\MyFileSystemWatcherText\bin\Debug\MyFileSystemWatcherText.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\NUnit 2.6\bin\framework\nunit.framework.dll" />
+      <DeploymentItem filename="C:\Users\simmon\Downloads\Moq.4.0.10827\NET40\Moq.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Typemock\Isolator\7\TypeMock.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-03-30T14:18:08.7259273+08:00" queuing="2012-03-30T14:18:08.7529288+08:00" start="2012-03-30T14:18:08.7639295+08:00" finish="2012-03-30T14:18:09.3319620+08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="RunTest" storage="c:\users\simmon\documents\visual studio 2010\projects\myfilesystemwatchertext\testproject1\bin\debug\testproject1.dll" id="d6d11a68-f0c1-2455-4e45-c5b23544b7bf">
+      <Execution id="59da18b6-f1a2-481c-9913-6731dfe63a23" />
+      <TestMethod codeBase="C:/Users/simmon/Documents/Visual Studio 2010/Projects/MyFileSystemWatcherText/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.MyFileSystemWatherTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RunTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="d6d11a68-f0c1-2455-4e45-c5b23544b7bf" executionId="59da18b6-f1a2-481c-9913-6731dfe63a23" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="59da18b6-f1a2-481c-9913-6731dfe63a23" testId="d6d11a68-f0c1-2455-4e45-c5b23544b7bf" testName="RunTest" computerName="SIMMON-PC" duration="00:00:00.3042496" startTime="2012-03-30T14:18:08.7679297+08:00" endTime="2012-03-30T14:18:09.3189612+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="59da18b6-f1a2-481c-9913-6731dfe63a23">
+      <Output>
+        <StdOut>The path of the mointor file:  
+The path of the mointor file: C:\Users\Public\Pictures\Sample Pictures *.*</StdOut>
+        <ErrorInfo>
+          <Message>Test method TestProject1.MyFileSystemWatherTest.RunTest threw exception: 
+System.Exception: 找不到路径：D:\download</Message>
+          <StackTrace>   at text.MyFileSystemWather_Accessor.Run(String[] ss)
+   at TestProject1.MyFileSystemWatherTest.RunTest() in C:\Users\simmon\Documents\Visual Studio 2010\Projects\MyFileSystemWatcherText\TestProject1\MyFileSystemWatherTest.cs:line 138
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
